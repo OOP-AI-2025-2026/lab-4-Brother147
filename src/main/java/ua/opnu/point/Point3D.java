@@ -1,10 +1,5 @@
 package ua.opnu.point;
 
-import ua.opnu.java.inheritance.point.Point;
-
-/**
- * Точка в трёхмерном пространстве, расширяющая двумерный Point.
- */
 public class Point3D extends Point {
 
     private int z;
