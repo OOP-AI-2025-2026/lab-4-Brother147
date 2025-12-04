@@ -1,11 +1,3 @@
-import ua.opnu.java.inheritance.bill.Employee;
-import ua.opnu.java.inheritance.bill.GroceryBill;
-import ua.opnu.java.inheritance.bill.Item;
-
-/**
- * Вариант DiscountBill, реализованный через композицию.
- * Использует внутренний экземпляр GroceryBill.
- */
 public class DiscountBill2 {
 
     private final GroceryBill bill;
