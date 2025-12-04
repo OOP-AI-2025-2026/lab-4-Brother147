@@ -1,3 +1,7 @@
+import ua.opnu.java.inheritance.bill.Employee;
+import ua.opnu.java.inheritance.bill.GroceryBill;
+import ua.opnu.java.inheritance.bill.Item;
+
 public class DiscountBill extends GroceryBill {
 
     private final boolean regularCustomer; // true — постоянный клиент
