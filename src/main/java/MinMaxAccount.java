@@ -1,12 +1,3 @@
-import ua.opnu.java.inheritance.account.BankingAccount;
-import ua.opnu.java.inheritance.account.Credit;
-import ua.opnu.java.inheritance.account.Debit;
-import ua.opnu.java.inheritance.account.Startup;
-
-/**
- * Банковский счет, который дополнительно хранит
- * минимальный и максимальный баланс за все время.
- */
 public class MinMaxAccount extends BankingAccount {
 
     private int minBalance;
