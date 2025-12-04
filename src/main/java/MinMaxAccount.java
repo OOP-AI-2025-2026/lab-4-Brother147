@@ -1,3 +1,8 @@
+import ua.opnu.java.inheritance.account.BankingAccount;
+import ua.opnu.java.inheritance.account.Startup;
+import ua.opnu.java.inheritance.account.Debit;
+import ua.opnu.java.inheritance.account.Credit;
+
 public class MinMaxAccount extends BankingAccount {
 
     private int minBalance;
