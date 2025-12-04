@@ -1,11 +1,3 @@
-import ua.opnu.java.inheritance.bill.Employee;
-import ua.opnu.java.inheritance.bill.GroceryBill;
-import ua.opnu.java.inheritance.bill.Item;
-
-/**
- * Чек с учетом скидок для постоянного покупателя.
- * Наследуется от GroceryBill.
- */
 public class DiscountBill extends GroceryBill {
 
     private final boolean regularCustomer; // true — постоянный клиент
