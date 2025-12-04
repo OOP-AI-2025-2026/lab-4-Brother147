@@ -22,6 +22,14 @@
             <version>5.9.0</version>
             <scope>test</scope>
         </dependency>
+              <!-- Required inheritance.jar library -->
+    <dependency>
+        <groupId>ua.opnu</groupId>
+        <artifactId>inheritance</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/libs/inheritance.jar</systemPath>
+    </dependency>
     </dependencies>
 
     <build>
